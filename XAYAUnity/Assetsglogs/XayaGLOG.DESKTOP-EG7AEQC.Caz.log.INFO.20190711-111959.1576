@@ -1,0 +1,42 @@
+Log file created at: 2019/07/11 11:19:59
+Running on machine: DESKTOP-EG7AEQC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0711 11:19:59.412225  1828 xayawrap.cpp:124] gameId: vuteka
+W0711 11:19:59.415222  1828 xayawrap.cpp:125] XayaRpcUrl: http://xaya:bm4rxrmr8b@127.0.0.1:18493/wallet/
+W0711 11:19:59.415222  1828 xayawrap.cpp:126] GameRpcPort: 18493
+W0711 11:19:59.415222  1828 xayawrap.cpp:127] EnablePruning: -1
+W0711 11:19:59.415222  1828 xayawrap.cpp:128] chain: 2
+W0711 11:19:59.415222  1828 xayawrap.cpp:129] storageType: memory
+W0711 11:19:59.493468  1828 xayawrap.cpp:130] dataDirectory: C:/Users/Caz/Documents/GitHub/XayaMoverUnity/XAYAUnity/Assetsdatabase\\
+W0711 11:19:59.493468  1828 xayawrap.cpp:131] glogName: XayaGLOG
+W0711 11:19:59.493468  1828 xayawrap.cpp:132] glogDataDir: C:/Users/Caz/Documents/GitHub/XayaMoverUnity/XAYAUnity/Assetsglogs\\
+I0711 11:19:59.566426  1828 game.cpp:340] Connected to RPC daemon with chain regtest
+I0711 11:19:59.566426  1828 game.cpp:441] Detected ZMQ endpoint: tcp://127.0.0.1:28332
+I0711 11:19:59.566426  1828 game.cpp:385] Storage has been added to Game, initialising it now
+I0711 11:19:59.566426  1828 game.cpp:390] Enabling height-cache cross-checks for regtest mode
+I0711 11:19:59.566426  1828 transactionmanager.cpp:31] Committing 0 batched transactions to the underlying storage instance
+I0711 11:19:59.566426  1828 defaultmain.cpp:92] Starting JSON-RPC HTTP server at port 18493
+I0711 11:19:59.592411  1828 mainloop.cpp:102] Starting main loop
+I0711 11:19:59.593410  1828 game.cpp:521] Added vuteka to tracked games
+I0711 11:19:59.593410  1828 zmqsubscriber.cpp:198] Starting ZMQ subscriber at address: tcp://127.0.0.1:28332
+I0711 11:19:59.640383  1828 game.cpp:606] Reinitialising game state
+I0711 11:19:59.644381  1828 transactionmanager.cpp:90] No pending commits, starting new underlying transaction
+I0711 11:19:59.644381  1828 transactionmanager.cpp:31] Committing 1 batched transactions to the underlying storage instance
+I0711 11:19:59.644381  1828 game.cpp:664] We are at the genesis height, stored initial game state for block 7c03bb7a1d04ff3d32d6562f5066ee61d74eea2d2cefbc7d06936f2bcd9a3469
+I0711 11:19:59.644381  1828 game.cpp:583] Game state does not match current tip, requesting updates from 7c03bb7a1d04ff3d32d6562f5066ee61d74eea2d2cefbc7d06936f2bcd9a3469
+I0711 11:19:59.644381  1828 game.cpp:589] Retrieving 0 detach and 3 attach steps with reqtoken = 5b3682f7d6761e5f7c6705eec9717549, leading to block 69cb6157b1779bd3401b4420ffa68cfd07431415d74e4b70f3a92c55b108da17
+I0711 11:19:59.644381  1828 transactionmanager.cpp:63] Set batch size for TransactionManager to 1000
+W0711 11:19:59.881616  9280 game.cpp:164] Missed ZMQ notifications, reinitialising state
+I0711 11:19:59.881616  9280 game.cpp:606] Reinitialising game state
+I0711 11:19:59.881616  9280 game.cpp:613] We have a current game state, syncing from there
+I0711 11:19:59.881616  9280 game.cpp:583] Game state does not match current tip, requesting updates from 7c03bb7a1d04ff3d32d6562f5066ee61d74eea2d2cefbc7d06936f2bcd9a3469
+I0711 11:19:59.882627  9280 game.cpp:589] Retrieving 0 detach and 3 attach steps with reqtoken = af1ee10c77114d6b1182d52022a997a5, leading to block 69cb6157b1779bd3401b4420ffa68cfd07431415d74e4b70f3a92c55b108da17
+I0711 11:19:59.882627  9280 transactionmanager.cpp:63] Set batch size for TransactionManager to 1000
+I0711 11:19:59.883613  9280 transactionmanager.cpp:90] No pending commits, starting new underlying transaction
+I0711 11:20:00.729007  9280 game.cpp:74] Current game state is at height 124 (block 38023ffa51d1bf15398f05a4cff1f1f2f00c39b085a5365a37a886241c54d75d)
+I0711 11:20:00.731006  9280 game.cpp:74] Current game state is at height 125 (block 51de0d8d5431138ada681f40cda55374dbfb18d2ec597270cd46747c26924eb1)
+I0711 11:20:00.761989  9280 game.cpp:74] Current game state is at height 126 (block 69cb6157b1779bd3401b4420ffa68cfd07431415d74e4b70f3a92c55b108da17)
+I0711 11:20:00.761989  9280 game.cpp:606] Reinitialising game state
+I0711 11:20:00.762987  9280 game.cpp:613] We have a current game state, syncing from there
+I0711 11:20:00.762987  9280 game.cpp:577] Game state matches current tip, we are up-to-date
+I0711 11:20:00.762987  9280 transactionmanager.cpp:63] Set batch size for TransactionMana

@@ -1,0 +1,13 @@
+Log file created at: 2019/07/11 11:19:59
+Running on machine: DESKTOP-EG7AEQC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0711 11:19:59.412225  1828 xayawrap.cpp:124] gameId: vuteka
+W0711 11:19:59.415222  1828 xayawrap.cpp:125] XayaRpcUrl: http://xaya:bm4rxrmr8b@127.0.0.1:18493/wallet/
+W0711 11:19:59.415222  1828 xayawrap.cpp:126] GameRpcPort: 18493
+W0711 11:19:59.415222  1828 xayawrap.cpp:127] EnablePruning: -1
+W0711 11:19:59.415222  1828 xayawrap.cpp:128] chain: 2
+W0711 11:19:59.415222  1828 xayawrap.cpp:129] storageType: memory
+W0711 11:19:59.493468  1828 xayawrap.cpp:130] dataDirectory: C:/Users/Caz/Documents/GitHub/XayaMoverUnity/XAYAUnity/Assetsdatabase\\
+W0711 11:19:59.493468  1828 xayawrap.cpp:131] glogName: XayaGLOG
+W0711 11:19:59.493468  1828 xayawrap.cpp:132] glogDataDir: C:/Users/Caz/Documents/GitHub/XayaMoverUnity/XAYAUnity/Assetsglogs\\
+W0711 11:19:59.881616  9280 game.cpp:164] Missed ZMQ notifications, reinitialising state

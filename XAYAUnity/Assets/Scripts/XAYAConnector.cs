@@ -151,17 +151,11 @@ public class XAYAConnector : MonoBehaviour
 
     IEnumerator WaitForChanges()
     {
-        /*We need to run this one on seperate thread,
-         else waitforchange will block all the input*/
-        // using Ninja here for threading help
         Task task;
         this.StartCoroutineAsync(WaitForChangesInner(), out task);
         yield return StartCoroutine(task.Wait());
     }
 
-    /* For some reason, issueing stop command might fail, 
-     * so we ar running it in the loop to make sure it 
-     * succeedes */
     void OnApplicationQuit()
     {
         Disconnect();
@@ -202,12 +196,6 @@ public class XAYAConnector : MonoBehaviour
 
     public void CheckIfFatalError()
     {
-        //We must to it this way,
-        //as we need to check on
-        //main Unity thread
-        //On the next update cycle
-        //Main thread will pick up
-        //the check we need
         fatalCheckPending = true; // 
     }
 

@@ -20,7 +20,7 @@ public class XAYAConnector : MonoBehaviour
     public string hostPort = "8396";
     public string gameport = "8900";
     public int chain = 0;
-    public string dataType = "memory";
+    public string dataType = "lmdb";
     string lastProcessedBlock = "e5062d76e5f50c42f493826ac9920b63a8def2626fd70a5cec707ec47a4c4651"; //First main net block hash.
 
     bool fatalCheckPending = false;

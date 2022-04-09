@@ -999,3 +999,10 @@ MonoBehaviour:
     type: 3}
   client: {fileID: 1235093439}
   connector: {fileID: 1235093440}
+  hostIP: 127.0.0.1
+  hostPort: 8396
+  gameIP: 127.0.0.1
+  gamePort: 8900
+  username: xaya
+  password: bm4rxrmr8b
+  endPoint: 
